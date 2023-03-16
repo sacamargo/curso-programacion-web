@@ -1,0 +1,428 @@
+body {
+  background-image: url('image 1_2023-03-13/image 1.png');
+  background-size: cover; /* Esto es para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Esto es para evitar que se repita */
+}
+
+.rec1 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 9px;
+
+position: absolute;
+width: 527px;
+height: 423px;
+left: 64px;
+top: 72px;
+
+background: rgba(217, 217, 217, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.myname {
+  /* SANTIAGO JOSE CAMARGO DE MARTINO */
+
+
+width: 403px;
+height: 80px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.email {
+  /* Email: camargodemartino1@gmail.com */
+
+
+width: 293px;
+height: 46px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.myphoto {
+  /* image 3 */
+
+
+
+
+width: 146px;
+height: 156px;
+
+background: url(image.png);
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.git {
+  /* GitHub: sacamargo */
+
+
+width: 97px;
+height: 46px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.rec2 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 9px;
+
+
+  position: absolute;
+  width: 321px;
+  height: 304px;
+  left: 692px;
+  top: 152px;
+  
+  background: rgba(217, 217, 217, 0.4);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.diseño {
+  width: 122px;
+  height: 37px;
+  left: 792px;
+  top: 166px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+.taller1{
+width: 152px;
+height: 222px;
+left: 762px;
+top: 216px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+
+color: #000000;
+}
+
+.rec3 {
+  /* Rectangle 4 */
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 9px;
+
+position: absolute;
+width: 321px;
+height: 304px;
+left: 1069px;
+top: 145px;
+
+background: rgba(217, 217, 217, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.consultas {
+  width: 186px;
+  height: 37px;
+  left: 1137px;
+  top: 166px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+.taller3 {
+  width: 152px;
+  height: 222px;
+  left: 1137px;
+  top: 209px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.rec4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 9px;
+
+  position: absolute;
+width: 321px;
+height: 304px;
+left: 692px;
+top: 513px;
+
+background: rgba(217, 217, 217, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.talleres {
+  width: 155px;
+  height: 37px;
+  left: 765px;
+  top: 540px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+.taller4 {
+  width: 152px;
+  height: 222px;
+  left: 762px;
+  top: 583px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+.rec5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 9px;
+
+  position: absolute;
+width: 321px;
+height: 304px;
+left: 1069px;
+top: 513px;
+
+background: rgba(217, 217, 217, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.retos {
+  width: 104px;
+  height: 37px;
+  left: 1167px;
+  top: 540px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+.taller5 {
+  width: 152px;
+height: 222px;
+left: 1137px;
+top: 583px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+
+color: #000000;
+}
+
+.soy {
+/* Rectangle 2 */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 9px;
+
+position: absolute;
+width: 587px;
+height: 304px;
+left: 49px;
+top: 513px;
+
+background: rgba(217, 217, 217, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.presentacion {
+  width: 244px;
+  height: 37px;
+  left: 220px;
+  top: 540px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+}
+
+.n {
+  width: 520px;
+  height: 184px;
+  left: 82px;
+  top: 596px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  
+  color: #000000;
+}
+.rec6 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 9px;
+
+  position: absolute;
+width: 1341px;
+height: 116px;
+left: 49px;
+top: 873px;
+
+background: rgba(217, 217, 217, 0.4);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.carrera {
+  width: 415px;
+  height: 37px;
+  left: 205px;
+  top: 912px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+}
+
+.iue {
+  width: 53px;
+height: 37px;
+left: 10px;
+top: 912px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
