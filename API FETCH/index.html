@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Fetch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>USO DE API FETCH</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>NOMBRE</th>
+            <th>NUMERO TELEFONICO</th>
+            <th>PAGINA WEB</th>
+          </tr>
+        </thead>
+        <tbody id="data"></tbody>
+      </table>
+      <p class="link">
+        <a href="https://jsonplaceholder.typicode.com/users/"
+          >https://jsonplaceholder.typicode.com/users/</a
+        >
+      </p>
+    </div>
+
+    <script>
+      // Uso de la API Fetch
+      let url = "https://jsonplaceholder.typicode.com/users/";
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => mostrarData(data))
+        .catch((error) => console.log(error));
+
+      const mostrarData = (data) => {
+        console.log(data);
+        let body = "";
+        for (var i = 0; i < data.length; i++) {
+          body += `<tr><td>${data[i].name}</td><td>${data[i].phone}</td><td>${data[i].website}</td></tr>`;
+        }
+        document.getElementById("data").innerHTML = body;
+      };
+    </script>
+  </body>
+</html>
